@@ -1,0 +1,420 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* LOGIN PAGE BODY */
+.login-body {
+  background: #f4f4f4;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('login_image.jpg') no-repeat center center/cover;
+  position: relative;
+   padding-left:750px;
+}
+
+/* LOGIN PAGE BODY */
+.reg-body {
+  background: #f4f4f4;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('login_image.jpg') no-repeat center center/cover;
+  position: relative;
+  padding-left:750px;
+}
+
+
+
+/* Login box container */
+.login-box {
+  background-color: #fff;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Logo */
+.logo img {
+  width: 40px;
+  margin-bottom: 5px;
+  ;
+}
+
+/* Titles */
+.login-box h2 {
+  font-size: 22px;
+  margin-bottom: 5px;
+  color: #000;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+/* Input with icons */
+.input-icon-box {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-icon-box input {
+  width: 100%;
+  padding: 12px 15px 12px 45px; /* space for icon */
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input-icon-box input:focus {
+  border-color: #3498db;
+  background-color: #fff;
+}
+
+.input-icon-box .input-icon {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #555;
+}
+
+/* Forgot Password */
+.forgot-password {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.forgot-password a {
+  color: #3498db;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+/* new user */
+.new-user {
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.new-user a {
+  color: #3498db;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.new-user a:hover {
+  text-decoration: underline;
+}
+
+
+/* Login Button */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #3498db;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Home Page Body */
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+.home-body {
+  font-family: Arial, sans-serif;
+  background-color: #eaf6ff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* Header/Navbar */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3498db;
+  padding: 0px 10px;/*reduce Vertical height*/
+  color: white;
+  flex-wrap: wrap;
+  height: auto; /* Ensure no fixed tall height */
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+}
+
+
+.logo img {
+  height: 40px;
+}
+
+.logo h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+}
+
+/*.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}*/
+
+
+/* Main Content */
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 40px;
+  flex: 1;
+  gap: 20px;
+}
+
+
+
+/* Dashboard Section */
+.dashboard {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tile {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.tile:hover {
+  background-color: #3498db;
+  color: white;
+}
+.tile button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: white;
+  color: #3498db;
+  border: 2px solid #3498db;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.tile button:hover {
+  background-color: #3498db;
+  color: white;
+}
+
+.carousel-item img {
+  max-height: 750px;
+  object-fit: cover;
+ 
+}
+.carousel {
+  margin-top: 0;
+}
+
+
+/* Footer */
+.footer {
+  background-color: #3498db;
+  color: white;
+  padding: 20px;
+  text-align: right;
+  font-size: 14px;
+
+}
+
+
+/* Services DropDown */
+
+.navbar {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  font-weight: 500;
+  padding: 6px 12px; /* Smaller clickable links */
+  font-size: 14px;   /* Optional: smaller font */
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8f8f8;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  display: block;
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 250px;            /* Smaller devices */
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-item img {
+    height: 180px;            /* Mobile */
+  }
+}
+
+/* this is for about section css */
+
+.about-section {
+  padding: 60px 20px;
+  background-color: #eef7fb;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-section h2 {
+  font-size: 36px;
+  color: #0077c8;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 18px;
+  color: #444;
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+
+/* physio-options */
+
+.physio-options .card {
+  border: none;
+  transition: all 0.3s ease;
+  background-color: #fff;
+  color: #000;
+}
+
+.physio-options .card:hover {
+  background-color: #3498db;  /* Blue background */
+  color: #fff;
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.physio-options .card:hover .card-title,
+.physio-options .card:hover .card-text {
+  color: #fff;
+}
+
+/* SAME style for all badges */
+.physio-options .badge {
+  font-size: 0.8rem;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background: #fff;        /* White background */
+  color: #3498db;          /* Blue text */
+  transition: all 0.3s ease;
+}
+
+/* Badge on hover */
+.physio-options .card:hover .badge {
+  background: #fff;        /* Still white */
+  color: #3498db;          /* Still blue text */
+}
+
+
+
+.physio-options .badge i 
+{
+  font-size: 5rem;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background: #fff;        /* White background */
+  color: #3498db;          /* Blue text */
+  transition: all 0.3s ease;
+  display: flex;           /* Add this */
+  align-items: center;     /* Vertically center */
+  justify-content: center; /* Horizontally center */
+  gap: 6px;                 }
